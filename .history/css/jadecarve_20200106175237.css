@@ -1,0 +1,16 @@
+.jade-carve-part{
+  padding:.2rem;
+}
+.jade-carve-title{
+
+}
+.jade-carve-title .title-img{
+  width: .5rem;
+  height: .5rem;
+}
+.jade-carve-title .title-con{
+  display: inline-block;
+  font-size: .34rem;
+  color: #000000;
+  letter-spacing: 0;
+}

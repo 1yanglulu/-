@@ -1,0 +1,13 @@
+.jade-carve-part{
+  padding: .4rem;
+}
+.jade-carve-title{
+
+}
+.jade-carve-title .title-img{
+  width: 1rem;
+  height: 1rem;
+}
+.jade-carve-title .title-con{
+  display: inline-block;
+}
