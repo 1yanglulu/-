@@ -1,3 +1,31 @@
+h2,body,div,html,ul,li,a,img{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+ul li{
+  list-style: none;
+}
+.clearfix:after{/*伪元素是行内元素 正常浏览器清除浮动方法*/
+    content: "";
+    display: block;
+    height: 0;
+    clear:both;
+    visibility: hidden;
+}
+.clearfix{
+    *zoom: 1;/*ie6清除浮动的方式 *号只有IE6-IE7执行，其他浏览器不执行*/
+}
+.fl{
+  float: left;
+}
+.fr{
+  float:right;
+}
 .jade-carve-part{
   padding:0 0.2rem;
   background: #fff;

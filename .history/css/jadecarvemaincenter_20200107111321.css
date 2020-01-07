@@ -1,0 +1,21 @@
+.jade-main-center{
+  width: 100%;
+}
+.banner-bac{
+  width: 100%;
+  height: 4.2rem;
+}
+.default-img{
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.avatar-box{
+  position: relative;
+}
+.self-made{
+  padding: 0 .24rem;
+  text-align: center;
+  line-height: .62rem;
+  border: 1px solid #00C17B;
+  border-radius:.33rem;
+}

@@ -1,17 +1,43 @@
+h2,body,div,html,ul,li,a,img{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+ul li{
+  list-style: none;
+}
+.clearfix:after{/*伪元素是行内元素 正常浏览器清除浮动方法*/
+    content: "";
+    display: block;
+    height: 0;
+    clear:both;
+    visibility: hidden;
+}
+.clearfix{
+    *zoom: 1;/*ie6清除浮动的方式 *号只有IE6-IE7执行，其他浏览器不执行*/
+}
+.fl{
+  float: left;
+}
+.fr{
+  float:right;
+}
 .jade-carve-part{
-  padding:0 0.2rem;
+  padding:0 .2rem;
   background: #fff;
 }
 .jade-carve-title{
   height: 1.22rem;
-  display: flex;
-  align-items: center;
   border-bottom:1px solid #CACACA;
 }
 .jade-carve-title .title-img{
   width: .5rem;
   height: .5rem;
-  margin-right: .1rem;
+  margin-right: -0.2rem;
 }
 .jade-carve-title .title-con{
   display: inline-block;
@@ -35,6 +61,7 @@
   width: 2.2rem;
   height: 2.47rem;
   border-radius: .08rem;
+  margin-bottom: .2rem;
 }
 .item-con{
   width:2.2rem;

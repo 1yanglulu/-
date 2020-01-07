@@ -1,0 +1,47 @@
+.bodyStyle{
+  padding:0 .2rem;
+}
+.home-top{
+  width: 100%;
+  height: 1.6rem;
+  background: #FFFFFF;
+  border-radius: .12rem;
+}
+.live-bac{
+  display: inline-block;
+  width: 1.6rem;
+  height: 100%;
+  vertical-align: middle;
+}
+.live-con{
+  height: 100%;
+  width: 100%;
+  padding:.2rem;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.live-title{
+  font-size: .32rem;
+  color: #000000;
+  letter-spacing: 0;
+  margin-bottom: 0.48rem;
+}
+.live-status{
+  display: inline-block;
+  width: .94rem;
+  height: .32rem;
+}
+.live-status>img{
+  width: .18rem;
+  height: .18rem;
+  display: inline-block;
+}
+.live-visitor-num{
+  display: inline-block;
+  font-size: .22rem;
+  color: #888888;
+}
+.live-detail>a{
+  display: inline-block;
+}

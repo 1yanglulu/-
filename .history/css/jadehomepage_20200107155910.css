@@ -1,0 +1,17 @@
+.bodyStyle{
+  padding:0 .2rem;
+}
+.home-top{
+  width: 100%;
+  height: 1.6rem;
+  background: #FFFFFF;
+  border-radius: .12rem;
+}
+.live-bac{
+  width: 1.6rem;
+  height: 100%;
+  border-radius: 0.12rem 0 0 0.12rem;
+}
+.live-con{
+
+}
