@@ -1,0 +1,12 @@
+.rencent-active-list{
+  padding: .2rem;
+  background: #fff;
+  border-radius: .12rem;
+}
+.self-title{
+  font-size: .34rem;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: .42rem;
+  font-weight: bold;
+}

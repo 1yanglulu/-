@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>玉雕师详情</title>
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/jadecarvemaincenter.css">
+  <link rel="stylesheet" href="../css/jadehomepage.css">
+  <link rel="stylesheet" href="../js/swiper4.1.0/swiper-4.1.0.min.css">
+</head>
+<body class="bac-color">
+  <div class="jade-main-center  bac-color">
+    <div class="top-banner">
+      <img src="../images/mainbac.png" alt="" class="banner-bac">
+    </div>
+    <div class="avatar-box">
+      <img src="../images/defaultImg.png" alt="" class="default-img">
+      <div class="btn-box fn">
+        <a href="javascript:void(0);" class="self-made">私人定制</a>
+        <div class="follow-btn"><span class="add-icon">+</span>关注</div>
+      </div>
+      <div class="jade-name">
+        米雷雨
+      </div>
+      <div class="jade-introduce fn">
+        <img src="../images/vipicon.png" alt="vip" class="vip-icon">
+        <span class="touxian">广东省玉石雕刻大师、中华玉雕高级师、广东省工艺美术师</span>
+      </div>
+      <div class="jade-hot-num">
+        <span class="for-num">100</span>关注<span class="for-num">100</span>粉丝<span class="for-num">10992</span>收到的赞
+      </div>
+    </div>
+    <div class="jade-tab clearfix">
+      <div class="jade-tab-item fl  fn">
+        <span>主页</span>
+        <div class="tab-line"></div>
+      </div>
+      <div class="jade-tab-item fl  fn">
+        <span>动态</span>
+        <div class="tab-line"></div>
+      </div>
+      <div class="jade-tab-item fl  fn">
+        <span>玉雕作品</span>
+        <div class="tab-line"></div>
+      </div>
+      <div class="jade-tab-item fl  fn">
+        <span>评价定制</span>
+        <div class="tab-line"></div>
+      </div>
+    </div>
+    <div id="home-page-con">
+    </div>
+    <div class="active-page-con">
+    </div>
+    <div class="jade-works-page-con">
+    </div>
+    <div class="jade-comment-made-page-con">
+    </div>
+  </div>
+  <script src="../js/jquery-3.3.1.min.js"></script>
+  <script src="../js/rem.js"></script>
+  <!-- <script src="../js/swiper4.1.0/swiper-4.1.0.min.js"></script> -->
+  <script>
+    $(document).ready(function(){
+  　　$("#home-page-con").load("./jadehomepage.html",function () {
+        var sc =  document.createElement("script");
+        sc.src= "../js/swiper4.1.0/swiper-4.1.0.min.js";
+        $("body").append(sc);
+        var mySwiper = new Swiper('.swiper-container', {
+          autoplay: false,//可选选项，自动滑动
+          slidesPerView: 3,
+          // spaceBetween: 10,
+        })
+      })
+    });
+  </script>
+  <script src="../js/jadecarvemaincenter.js"></script>
+</body>
+</html>

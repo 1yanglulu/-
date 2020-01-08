@@ -1,0 +1,66 @@
+.rencent-active-list{
+  padding:0 .2rem;
+  background: #fff;
+  border-radius: .12rem;
+}
+.common-title-sty{
+  padding: .3rem 0 0;
+}
+.rencent-con{
+
+}
+.rencent-con-item{
+  padding:.3rem 0;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.rencent-con-item .rencent-top-avatar>img{
+  width: .8rem;
+  height: .8rem;
+  margin-right: .2rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.rencent-top-introduce{
+  display: inline-block;
+  vertical-align: middle;
+}
+.rencent-top-introduce div:first-child{
+  font-size: .3rem;
+  color: #333333;
+  text-align: left;
+  line-height: .36rem;
+  font-weight: bold;
+  margin-bottom: .16rem;
+  max-width: 5.7rem;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.rencent-top-introduce div:nth-child(2){
+  max-width: 5.7rem;
+  font-size: .24rem;
+  color: #888888;
+  letter-spacing: 0;
+  line-height: .28rem;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.rencent-con-item{
+  font-size: .34rem;
+  color: #000000;
+  line-height: .54rem;
+}
+.rencent-introduce span:first-child{
+  font-size: .34rem;
+  color: #3E74A8;
+  line-height: .4rem;
+}
+.rencent-introduce span:nth-child(2){
+  font-size: .34rem;
+  color: #3E74A8;
+  line-height: .4rem;
+}

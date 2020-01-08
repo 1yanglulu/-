@@ -1,0 +1,248 @@
+.rencent-active-list{
+  padding:0 .2rem;
+  background: #fff;
+  border-radius: .12rem;
+}
+.common-title-sty{
+  padding: .3rem 0 0;
+}
+.rencent-con{
+
+}
+.rencent-con-item{
+  padding:.3rem 0;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.rencent-con-item .rencent-top-avatar>img{
+  width: .8rem;
+  height: .8rem;
+  margin-right: .2rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.rencent-top-introduce{
+  display: inline-block;
+  vertical-align: middle;
+}
+.rencent-top-introduce div:first-child{
+  font-size: .3rem;
+  color: #333333;
+  text-align: left;
+  line-height: .36rem;
+  font-weight: bold;
+  margin-bottom: .16rem;
+  max-width: 5.7rem;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.rencent-top-introduce div:nth-child(2){
+  max-width: 5.7rem;
+  font-size: .24rem;
+  color: #888888;
+  letter-spacing: 0;
+  line-height: .28rem;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.rencent-con-item{
+  font-size: .34rem;
+  color: #000000;
+  line-height: .54rem;
+}
+.rencent-introduce{
+  margin: .2rem 0;
+}
+.rencent-introduce span:first-child{
+  font-size: .34rem;
+  color: #3E74A8;
+  line-height: .4rem;
+}
+.rencent-introduce span:nth-child(2){
+  font-size: .34rem;
+  color: #000;
+  line-height: .4rem;
+}
+/*如果显示图片，图片的样式*/
+.recent-img-con{
+  border-radius: .12rem;
+  overflow: hidden;
+  margin-bottom: .3rem;
+}
+.recent-img-con-item{
+  margin-right: .1rem;
+  margin-bottom: .1rem;
+}
+.recent-img-con-item:nth-child(3n){
+  margin-right: 0;
+}
+.recent-img-con-item:nth-last-child(1),.recent-img-con-item:nth-last-child(2),.recent-img-con-item:nth-last-child(3){
+  margin-bottom: 0;
+}
+.recent-img-con-item>img{
+  width: 2.16rem;
+  height: 2.16rem;
+}
+/*如果显示视频，视频的样式*/
+.recent-video{
+  width: 3rem;
+  height: 4.05rem;
+  position: relative;
+  border-radius: .12rem;
+  margin-bottom: .3rem;
+}
+.recent-video video{
+  width: 3rem;
+  height: 4.05rem;
+}
+.recent-video img:nth-child(2){
+  width: 3rem;
+  height: 4.05rem;
+  position: absolute;
+  top:0;
+  left:0;
+}
+.recent-video img:nth-child(3){
+  width:.8rem;
+  height:.8rem;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
+.recent-video span{
+  font-size: .24rem;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 0 .18rem;
+  line-height: .3rem;
+  background: rgba(0, 0, 0, .5);
+  border-radius: .19rem;
+  position: absolute;
+  right: .1rem;
+  bottom: .1rem;
+}
+/*浏览量，点赞，评论，分享样式*/
+.recent-data{
+
+}
+.look-num{
+  display: inline-block;
+  font-size: .28rem;
+  color: #888888;
+  letter-spacing: 0;
+  vertical-align: middle;
+  text-align: center;
+}
+.look-num>span{
+  font-size: .28rem;
+  color: #888888;
+  letter-spacing: 0;
+  vertical-align: middle;
+  margin-right: .1rem;
+}
+.follow-num{
+  display: inline-block;
+  vertical-align: middle;
+}
+.recent-follow-item{
+  text-align: center;
+  margin-right: .4rem;
+}
+.recent-follow-item>img{
+  display: inline-block;
+  widows: .32rem;
+  height: .32rem;
+  vertical-align: middle;
+  margin-right: .1rem;
+}
+.recent-follow-item span{
+  font-size: .28rem;
+  color: #666666;
+  letter-spacing: 0;
+  vertical-align: middle;
+}
+.recent-follow-item:last-child{
+  margin-right: 0;
+}
+/*分割线样式*/
+.gap-line{
+  width: 100%;
+  height: 1px;
+  border-top:1px solid #DCDCDC;
+  margin:.3rem 0;
+}
+/*点赞数据样式*/
+.dian-zan-detail{
+
+}
+.dian-zan-title{
+  margin-bottom: .2rem;
+}
+.dian-zan-title>img{
+  display: inline-block;
+  width: .32rem;
+  height: .32rem;
+  vertical-align: middle;
+}
+.dian-zan-title span:nth-child(2){
+  font-size: .28rem;
+  color: #333333;
+  letter-spacing: 0;
+  font-weight: bold;
+  vertical-align: middle;
+  margin: 0 .1rem;
+}
+.dian-zan-title span:nth-child(3){
+  font-size: .28rem;
+  color: #888888;
+  letter-spacing: 0;
+  vertical-align: middle;
+}
+.dian-zan-con{
+
+}
+.dian-zan-con-item{
+
+}
+.dian-zan-label{
+  padding: 0 .06rem;
+  line-height: .3rem;
+  border: 1px solid #FC4C24;
+  border-radius: .06rem;
+  font-size: .22rem;
+  color: #FC4C24;
+  letter-spacing: 0;
+  display: inline-block;
+  margin-right: .1rem;
+}
+.dian-zan-con-item span:nth-child(2){
+  font-size: .3rem;
+  color: #333333;
+  text-align: left;
+  font-weight: bold;
+}
+.dian-zan-con-item span:nth-child(3){
+  font-size: .3rem;
+  color: #444444;
+  text-align: left;
+  line-height: .36rem;
+}
+/*评论总数标题*/
+
+.comment-total-num span{
+  font-size: .28rem;
+  color: #888888;
+  line-height: .32rem;
+}
+.comment-total-num img{
+  display: inline-block;
+  width: .15rem;
+  height: .28rem;
+  transform: rotate(45deg)
+}

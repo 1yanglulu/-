@@ -1,0 +1,35 @@
+.rencent-active-list{
+  padding:0 .2rem;
+  background: #fff;
+  border-radius: .12rem;
+}
+.common-title-sty{
+  padding: .3rem 0;
+}
+.rencent-con{
+
+}
+.rencent-con .rencent-top-avatar>img{
+  width: .8rem;
+  height: .8rem;
+  margin-right: .2rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.rencent-top-introduce{
+  display: inline-block;
+  vertical-align: middle;
+}
+.rencent-top-introduce div:first-child{
+  font-size: .3rem;
+  color: #333333;
+  text-align: left;
+  line-height: .36rem;
+  font-weight: bold;
+}
+.rencent-top-introduce div:nth-child(2){
+  font-size: .24rem;
+  color: #888888;
+  letter-spacing: 0;
+  line-height: .28rem;
+}
