@@ -1,0 +1,52 @@
+.special-review-item{
+  background: #fff;
+  border-radius: .12rem;
+}
+.fix-avatar-box{
+  background: #fff;
+  padding: .1rem;
+}
+.no-padding-sty{
+  padding: 0 !important;
+}
+.fix-inner-lf{
+  position: relative;
+  margin-right: .2rem
+}
+.fix-inner-lf img:first-child{
+  width: .8rem;
+  height: .8rem;
+}
+.fix-inner-lf img:nth-child(2){
+  position: absolute;
+  bottom: 0.1rem;
+  right: 0.05rem;
+  width: .24rem;
+  height:.24rem;
+}
+.commenter-icon{
+  width: .7rem;
+  height: .7rem;
+}
+.fix-inner-con .fix-inner-con-first-top{
+  font-size: .3rem;
+  color: #333333;
+  text-align: left;
+  line-height: .36rem;
+  font-weight: bold;
+  max-width: 4.8rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: .16rem;
+}
+.fix-inner-con .fix-inner-con-first-bom{
+  font-size: .24rem;
+  color: #888888;
+  letter-spacing: 0;
+  line-height: .28rem;
+  max-width: 4.8rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

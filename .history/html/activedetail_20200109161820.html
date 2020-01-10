@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>动态详情</title>
+  <link rel="stylesheet" href="../js/swiper4.1.0/swiper-4.1.0.min.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/activedetail.css">
+</head>
+<body class="bac-color">
+  <div class="outer-active-detail">
+    <div class="fix-avatar-box clearfix">
+      <div class="fix-inner-lf fl">
+        <img src="../images/defaultImg.png">
+        <img src="../images/vipicon.png">
+      </div>
+      <div class="fix-inner-con fl">
+        <div>米雷雨</div>
+        <div>广东省玉雕大师</div>
+      </div>
+      <div class="fix-inner-rg fn fr">
+        <span>+</span>
+        <span>关注</span>
+      </div>
+    </div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="../images/yushi1.jpg" >
+          <video src="../images/normalvideo.mp4"></video>
+        </div>
+        <div class="swiper-slide">
+          <img src="../images/yushi1.jpg" >
+        </div>
+        <div class="swiper-slide">
+          <img src="../images/yushi2.jpg" >
+        </div>
+        <div class="swiper-slide">
+          <img src="../images/yushi3.jpg" >
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+  <script src="../js/jquery-3.3.1.min.js"></script>
+  <script src="../js/rem.js"></script>
+  <script src="../js/swiper4.1.0/swiper-4.1.0.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      var mySwiper = new Swiper('.swiper-container', {
+        pagination: {
+          el: '.swiper-pagination',
+        },
+        autoplay: true,//可选选项，自动滑动
+      })
+    })
+  </script>
+</body>
+</html>

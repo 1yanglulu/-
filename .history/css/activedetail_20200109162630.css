@@ -1,0 +1,108 @@
+html,body{
+  position: relative;
+  height: 100%;
+}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+}
+.outer-active-detail{
+  position: relative;
+  height: 100%;
+}
+/*头部头像信息*/
+.fix-avatar-box{
+  background: #fff;
+  padding: .1rem;
+}
+.fix-inner-lf{
+  position: relative;
+  margin-right: .2rem
+}
+.fix-inner-lf img:first-child{
+  width: .8rem;
+  height: .8rem;
+}
+.fix-inner-lf img:nth-child(2){
+  position: absolute;
+  bottom: 0.1rem;
+  right: 0.05rem;
+  width: .24rem;
+  height:.24rem;
+}
+.fix-inner-con{
+
+}
+.fix-inner-con div:first-child{
+  font-size: .3rem;
+  color: #333333;
+  text-align: left;
+  line-height: .36rem;
+  font-weight: bold;
+  max-width: 4.8rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: .16rem;
+}
+.fix-inner-con div:nth-child(2){
+  font-size: .24rem;
+  color: #888888;
+  letter-spacing: 0;
+  line-height: .28rem;
+  max-width: 4.8rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.fix-inner-rg{
+  padding: .1rem .19rem;
+  background: #00C17B;
+  border-radius: .27rem;
+  margin-top: .1rem;
+}
+.fix-inner-rg span:first-child{
+  font-size: .30rem;
+  color: #FFFFFF;
+  margin-right: .05rem;
+  vertical-align: middle;
+}
+.fix-inner-rg span:nth-child(2){
+  font-size: .24rem;
+  color: #FFFFFF;
+  vertical-align: middle;
+}
+/*轮播图样式*/
+.swiper-container{
+  width: 100%;
+  height: 100%;
+  --swiper-theme-color: #ff6600;
+  --swiper-pagination-color: #00ff33;/* 两种都可以 */
+}
+.swiper-slide {
+  /* text-align: center;
+  font-size: 18px;
+  background: #fff;*/
+
+  /* Center slide text vertically */
+  /* display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; */
+}
+.swiper-slide img{
+  width: 100%;
+  object-fit: contain
+}

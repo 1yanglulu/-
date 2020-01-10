@@ -1,0 +1,29 @@
+.jade-work-box{
+  background: #fff;
+  border-radius: .12rem;
+  overflow: hidden;
+}
+.jade-work-item{
+
+}
+.jade-work-video-box{
+  position: relative;
+}
+.jade-work-video-box video{
+  width: 3.45rem;
+  height: 3.45rem;
+}
+.jade-work-video-box img:nth-child(2){
+  width: 3.45rem;
+  height: 3.45rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.jade-work-video-box img:nth-child(3){
+  width: .55rem;
+  height: .55rem;
+  position: absolute;
+  left: .2rem;
+  bottom: .2rem;
+}

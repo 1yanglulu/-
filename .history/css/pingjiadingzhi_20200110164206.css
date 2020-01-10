@@ -1,0 +1,78 @@
+.special-review-item{
+  background: #fff;
+  border-radius: .12rem;
+  overflow: hidden;
+}
+.fix-avatar-box{
+  background: #fff;
+  padding: .1rem;
+}
+.no-padding-sty{
+  padding: 0 !important;
+}
+.fix-inner-lf{
+  margin-right: .2rem
+}
+.fix-inner-lf img:first-child{
+  width: .8rem;
+  height: .8rem;
+}
+.commenter-icon{
+  width: .7rem;
+  height: .7rem;
+}
+.fix-inner-reviews-con .fix-inner-con-reviews-top{
+  font-size: .3rem;
+  color: #333333;
+  text-align: left;
+  line-height: .36rem;
+  font-weight: bold;
+  max-width: 4.8rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: .11rem;
+}
+.fix-inner-con-reviews-bom{
+  position: relative;
+}
+.fix-con-unlight-box,.fix-con-light-box{
+  background: #fff;
+  font-size: 0 !important;
+}
+.fix-inner-con-reviews-bom .fix-con-unlight-box img{
+  display: inline-block;
+  width: .28rem;
+  height: .28rem;
+  margin-right: .1rem;
+}
+.fix-inner-con-reviews-bom .fix-con-light-box{
+  width: 20%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.fix-con-light-box img{
+  display: inline-block;
+  width: .28rem;
+  height: .28rem;
+  margin-right: .1rem;
+}
+.fix-inner-rg{
+  padding: .1rem .19rem;
+  background: #00C17B;
+  border-radius: .27rem;
+  margin-top: .1rem;
+}
+.fix-inner-rg span:first-child{
+  font-size: .30rem;
+  color: #FFFFFF;
+  margin-right: .05rem;
+  vertical-align: middle;
+}
+.fix-inner-rg span:nth-child(2){
+  font-size: .24rem;
+  color: #FFFFFF;
+  vertical-align: middle;
+}

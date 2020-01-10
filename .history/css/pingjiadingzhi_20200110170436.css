@@ -1,0 +1,87 @@
+.special-review-item{
+  background: #fff;
+  border-radius: .12rem;
+  overflow: hidden;
+  padding:.2rem;
+}
+.fix-avatar-box{
+  background: #fff;
+}
+.no-padding-sty{
+  padding: 0 !important;
+}
+.fix-inner-lf{
+  margin-right: .2rem
+}
+.fix-inner-lf img:first-child{
+  width: .8rem;
+  height: .8rem;
+}
+.commenter-icon{
+  width: .7rem;
+  height: .7rem;
+}
+.fix-inner-reviews-con .fix-inner-con-reviews-top{
+  font-size: .3rem;
+  color: #333333;
+  text-align: left;
+  line-height: .36rem;
+  font-weight: bold;
+  max-width: 4.8rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: .11rem;
+}
+.fix-inner-con-reviews-bom{
+  position: relative;
+  overflow: hidden;
+}
+.fix-con-unlight-box,.fix-con-light-box{
+  background: #fff;
+  font-size: 0 !important;
+}
+.fix-con-unlight-box img{
+  display: inline-block;
+  width: .28rem;
+  height: .28rem;
+  margin-right: .1rem;
+}
+.fix-con-light-box{
+  width: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.fix-con-light-box img{
+  display: inline-block;
+  width: .28rem;
+  height: .28rem;
+  margin-right: .1rem;
+}
+.fix-reviews-rg{
+
+}
+.fix-reviews-rg span{
+  display: block;
+  font-size: .24rem;
+  color: #888888;
+  letter-spacing: 0;
+  text-align: right;
+  line-height: 1rem;
+}
+.reviews-avatar-box{
+  padding-left: 1rem;
+}
+.reviews-detail{
+  font-size: .34rem;
+  color: #000000;
+  line-height: .5rem;
+}
+.reviews-img img{
+  width: 1.35rem;
+  height: 1.35rem;
+  margin-right: .1rem;
+  border-radius: .08rem;
+}

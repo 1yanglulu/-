@@ -1,0 +1,198 @@
+.outer-active-detail{
+  position: relative;
+  height: 100%;
+}
+/*头部头像信息*/
+.fix-avatar-box{
+  background: #fff;
+  padding: .1rem;
+}
+.fix-inner-lf{
+  position: relative;
+  margin-right: .2rem
+}
+.fix-inner-lf img:first-child{
+  width: .8rem;
+  height: .8rem;
+}
+.fix-inner-lf img:nth-child(2){
+  position: absolute;
+  bottom: 0.1rem;
+  right: 0.05rem;
+  width: .24rem;
+  height:.24rem;
+}
+.fix-inner-con{
+
+}
+.fix-inner-con div:first-child{
+  font-size: .3rem;
+  color: #333333;
+  text-align: left;
+  line-height: .36rem;
+  font-weight: bold;
+  max-width: 4.8rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: .16rem;
+}
+.fix-inner-con div:nth-child(2){
+  font-size: .24rem;
+  color: #888888;
+  letter-spacing: 0;
+  line-height: .28rem;
+  max-width: 4.8rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.fix-inner-rg{
+  padding: .1rem .19rem;
+  background: #00C17B;
+  border-radius: .27rem;
+  margin-top: .1rem;
+}
+.fix-inner-rg span:first-child{
+  font-size: .30rem;
+  color: #FFFFFF;
+  margin-right: .05rem;
+  vertical-align: middle;
+}
+.fix-inner-rg span:nth-child(2){
+  font-size: .24rem;
+  color: #FFFFFF;
+  vertical-align: middle;
+}
+/*轮播图样式*/
+.swiper-container1{
+  width: 7.5rem;
+  height:7.5rem;
+  --swiper-theme-color: #ff6600;
+  --swiper-pagination-color: #00ff33;/* 两种都可以 */
+}
+.swiper-container1 .swiper-slide {
+  width: 100%;
+  height: 7.5rem;
+}
+.swiper-container1 .swiper-slide img{
+  width: 100%;
+  height: 100%;
+}
+.inner-video-box{
+  position: relative;
+}
+.inner-video-box video{
+  width: 7.5rem;
+  height: 7.5rem;
+}
+.inner-video-box img:nth-child(2){
+  position: absolute;
+  width: 7.5rem;
+  height: 7.5rem;
+  top: 0;
+  left: 0;
+}
+.inner-video-box img:nth-child(3){
+  width: .8rem;
+  height: .8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.rencent-introduce{
+  margin: .2rem 0;
+  padding: 0 .2rem;
+  box-sizing: border-box;
+}
+.rencent-introduce span:first-child{
+  display: inline-block;
+  font-size: .34rem;
+  color: #3E74A8;
+  line-height: .4rem;
+}
+.rencent-introduce span:nth-child(2){
+  font-size: .34rem;
+  color: #000;
+  line-height: .54rem;
+}
+
+.swiper-container2{
+  width: 100%;
+}
+.swiper-container2 .swiper-slide{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  flex-flow:column;
+  -ms-flex-flow: column;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-container2 .swiper-slide div:first-child{
+  border-radius: .12rem;
+  overflow: hidden;
+  margin-right: .16rem;
+}
+.swiper-container2 .swiper-slide div:first-child .achive-img{
+  display: block;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.swiper-container2 .swiper-slide div:first-child span{
+  width: 2.4rem;
+  height:.5rem;
+  line-height: 0.5rem;
+  text-align: center;
+  border-radius: 0 0 .12rem .12rem;
+  background: transparent;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: .24rem;
+  color: #FFFFFF;
+  text-shadow: 0 .02rem .02rem rgba(0,0,0,0.50);
+}
+.swiper-container2 .swiper-slide div:nth-child(2){
+  display: block;
+  font-size: .32rem;
+  color: #000000;
+  letter-spacing: 0;
+  text-align: left;
+  line-height: .38rem;
+  margin-bottom: .16rem;
+  max-width: 2.4rem;
+  text-align: center;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.swiper-container2 .swiper-slide div:nth-child(3){
+  display: block;
+  font-size: .28rem;
+  color: #888888;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: .38rem;
+  max-width: 2.4rem;
+  text-align: center;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

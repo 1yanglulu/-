@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>玉雕师详情</title>
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../js/swiper4.1.0/swiper-4.1.0.min.css">
+  <link rel="stylesheet" href="../css/jadecarvemaincenter.css">
+  <link rel="stylesheet" href="../css/jadehomepage.css">
+  <link rel="stylesheet" href="../css/recentactive.css">
+</head>
+<body class="bac-color">
+  <div class="jade-main-center  bac-color">
+    <div class="top-banner">
+      <img src="../images/mainbac.png" alt="" class="banner-bac">
+    </div>
+    <div class="avatar-box">
+      <img src="../images/defaultImg.png" alt="" class="default-img">
+      <div class="btn-box fn">
+        <a href="javascript:void(0);" class="self-made">私人定制</a>
+        <div class="follow-btn"><span class="add-icon">+</span>关注</div>
+      </div>
+      <div class="jade-name">
+        米雷雨
+      </div>
+      <div class="jade-introduce fn">
+        <img src="../images/vipicon.png" alt="vip" class="vip-icon">
+        <span class="touxian">广东省玉石雕刻大师、中华玉雕高级师、广东省工艺美术师</span>
+      </div>
+      <div class="jade-hot-num">
+        <span class="for-num">100</span>关注<span class="for-num">100</span>粉丝<span class="for-num">10992</span>收到的赞
+      </div>
+    </div>
+    <div class="fixBox">
+      <div class="fix-avatar-box clearfix">
+        <div class="fix-inner-lf">
+          <img src="../images/defaultImg.png">
+          <img src="../images/vipicon.png">
+        </div>
+        <div class="fix-inner-con">
+          <div>米雷雨</div>
+          <div>广东省玉雕大师</div>
+        </div>
+        <div class="fix-inner-rg fn">
+          <span>+</span>
+          <span>关注</span>
+        </div>
+      </div>
+      <div class="jade-tab clearfix">
+        <div class="jade-tab-item fl  fn">
+          <span>主页</span>
+          <div class="tab-line"></div>
+        </div>
+        <div class="jade-tab-item fl  fn">
+          <span>动态</span>
+          <div class="tab-line"></div>
+        </div>
+        <div class="jade-tab-item fl  fn">
+          <span>玉雕作品</span>
+          <div class="tab-line"></div>
+        </div>
+        <div class="jade-tab-item fl  fn">
+          <span>评价定制</span>
+          <div class="tab-line"></div>
+        </div>
+      </div>
+    </div>
+    <div id="home-page-con">
+    </div>
+    <div class="active-page-con">
+    </div>
+    <div class="jade-works-page-con">
+    </div>
+    <div class="jade-comment-made-page-con">
+    </div>
+    <div class="for-app-btn">
+      <div class="inner-for-app-btn">打开APP查看更多内容</div>
+    </div>
+    <div class="download-app-tip">
+      <img src="../images/logo.png">
+      <span>打开对庄翡翠，查看更多玉雕师信息</span>
+      <div>立即前往</div>
+    </div>
+  </div>
+  <script src="../js/jquery-3.3.1.min.js"></script>
+  <script src="../js/rem.js"></script>
+  <!-- <script src="../js/swiper4.1.0/swiper-4.1.0.min.js"></script> -->
+  <script>
+    $(document).ready(function(){
+  　　$("#home-page-con").load("./jadehomepage.html",function () {
+        var sc1 =  document.createElement("script");
+        sc1.src= "../js/swiper4.1.0/swiper-4.1.0.min.js";
+        $("body").append(sc1);
+        var mySwiper = new Swiper('.swiper-container', {
+          autoplay: false,//可选选项，自动滑动
+          slidesPerView: 2.6,
+          spaceBetween: 10,
+        })
+        var sc2 =  document.createElement("script");
+        sc2.src= "../js/jadehomepage.js";
+        $("body").append(sc2);
+      })
+      $(".active-page-con").load("./recentactive.html")
+      //滚动条滚动事件
+      $(window).scroll(function () {
+        var top=$(document).scrollTop();
+        var top2=$(".top-banner").innerHeight()
+        var top3=$(".avatar-box").innerHeight()
+        console.log("top",top)
+        console.log("top2+top3",top2+top3)
+        if(top>=(top2+top3)){
+          $(".fix-avatar-box").css("display","block")
+          $(".fixBox").css({
+            "position":"fixed",
+            "z-index":2
+          })
+          $(".jade-main-center").css("padding-top","100px");
+        }else{
+          $(".fix-avatar-box").css("display","none")
+          $(".fixBox").css({
+            "position":"static",
+          })
+          $(".jade-main-center").css("padding-top","0");
+        }
+      })
+    });
+  </script>
+  <script src="../js/jadecarvemaincenter.js"></script>
+</body>
+</html>
