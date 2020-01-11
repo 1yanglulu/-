@@ -102,7 +102,6 @@
 .dingzhiyaoqiu{
   margin-top: .15rem;
   padding-bottom: .3rem;
-  position: relative;
   /* border-left:1px dashed #DCDCDC; */
 }
 .dingzhiyaoqiu-con{
@@ -113,7 +112,6 @@
   /* line-height: .4rem; */
 }
 .yuancailiao{
-  position: relative;
   padding-bottom:.3rem;
   /* border-left:1px dashed #DCDCDC; */
 }
@@ -187,6 +185,6 @@
   height: 100%;
   border-left:1px dashed #DCDCDC;
   position: absolute;
-  top:0.11rem;
-  left:0;
+  top:-0.11rem;
+  left:.5rem;
 }

@@ -102,8 +102,6 @@
 .dingzhiyaoqiu{
   margin-top: .15rem;
   padding-bottom: .3rem;
-  position: relative;
-  /* border-left:1px dashed #DCDCDC; */
 }
 .dingzhiyaoqiu-con{
   font-size: .3rem;
@@ -113,9 +111,7 @@
   /* line-height: .4rem; */
 }
 .yuancailiao{
-  position: relative;
-  padding-bottom:.3rem;
-  /* border-left:1px dashed #DCDCDC; */
+  margin-bottom:.3rem;
 }
 .yuancailiao-con-first{
   width: 1.35rem;
@@ -180,13 +176,4 @@
 }
 .yuancailiao-con{
   padding-left: .5rem;
-}
-
-.lf-dash-line{
-  width:0;
-  height: 100%;
-  border-left:1px dashed #DCDCDC;
-  position: absolute;
-  top:0.11rem;
-  left:0;
 }

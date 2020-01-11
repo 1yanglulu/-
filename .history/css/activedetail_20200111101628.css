@@ -82,15 +82,22 @@
   -webkit-align-items: center;
   align-items: center;
   max-width: 4.8rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .time-box{
+  display: inline-block;
   font-size: .24rem;
   color: #888888;
   letter-spacing: 0;
   line-height: .28rem;
+  vertical-align: middle;
 }
 .account-type{
+  /* display: inline-block !important; */
   margin-bottom: 0 !important;
+  vertical-align: middle;
   margin-right: .05rem;
   font-size: 0 !important;
 }
@@ -101,17 +108,13 @@
   display: inline-block;
   vertical-align: middle;
 }
-.account-type .haoming{
+.account-type span{
   display: inline-block;
   font-size: .24rem;
   color: #888888;
   text-align: left;
   line-height: .3rem;
-  max-width: 2.4rem;
   vertical-align: middle;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
 }
 .fix-inner-con-bom{
   font-size: .28rem;
